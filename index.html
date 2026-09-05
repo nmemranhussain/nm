@@ -151,8 +151,8 @@
                 <div class="flex items-start space-x-4 p-4 rounded-xl bg-gray-50">
                     <i class="fas fa-microchip text-3xl text-gray-500"></i>
                     <div>
-                        <h3 class="font-semibold text-lg text-gray-800">Machine Learning & AI</h3>
-                        <p class="text-gray-600">Generative AI (RAG, Transformers), Deep Learning (Keras, PyTorch), NLP (Sentiment Analysis, Word2Vec), Responsible AI (Fairness, SHAP).</p>
+                        <h3 class="font-semibold text-lg text-gray-800">AI and Generative Systems</h3>
+                        <p class="text-gray-600">Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Transformers, LangChain, Vector Databases (ChromaDB), NLP (Word2Vec, FastText, Sentiment Analysis).</p>
                     </div>
                 </div>
 
@@ -160,7 +160,7 @@
                     <i class="fas fa-cloud text-3xl text-gray-500"></i>
                     <div>
                         <h3 class="font-semibold text-lg text-gray-800">Tools & Cloud Platforms</h3>
-                        <p class="text-gray-600">GCP (Vertex AI, BigQuery ML), ETL Pipeline, Spark (PySpark), PostgreSQL, Version Control, Git/GitHub.</p>
+                        <p class="text-gray-600">GCP (Vertex AI, BigQuery ML), Gemini 2.5 Flash, Vertor Search (RAG), ChormaDB, SHAP, DuckDB, Streamlit, Docker, Cloud Run, LinUCB, XGBoost, LangChain, Spark (PySpark), PyTorch, PostgreSQL, Version Control, Git/GitHub.</p>
                     </div>
                 </div>
 
@@ -168,7 +168,7 @@
                     <i class="fas fa-chart-line text-3xl text-gray-500"></i>
                     <div>
                         <h3 class="font-semibold text-lg text-gray-800">Business Strategy Analytics</h3>
-                        <p class="text-gray-600">A/B Testing, CLV, CAC, Churn Prediction, ROI Analysis, ROMI, AARRR Funnel, Stakeholder Management.</p>
+                        <p class="text-gray-600">A/B Testing, CLV, CAC, Churn Prediction, ROI Analysis, ROMI Analysis, AARRR Funnel, Stakeholder Management.</p>
                     </div>
                 </div>
 
@@ -196,6 +196,43 @@
     <div class="card p-8 md:p-12">
         <h2 class="text-3xl lg:text-4xl font-bold section-heading text-gradient">Featured Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <div class="card p-6 border border-gray-200">
+                <h3 class="text-xl font-bold mb-1 text-gray-900">Cardiovascular Risk Assessment & Triage Assistant</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Vertex AI</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Gemini API</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">BigQueryML</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Vetor Search (RAG)</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Plotly</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">SHAP</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Streamlit</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Docker</span>
+                </div>
+                <p class="text-gray-600 mb-4"> Architected a 4-agent clinical pipeline utilizing Vertex AI Gemini to parse unstructured vitals and a BigQuery ML boosted tree to predict heart failure mortality with SHAP explainability. Engineered a RAG system via Vertex AI Vector Search for medical guideline retrieval, deploying the solution to Cloud Run as a serverless Streamlit dashboard with active MLOps drift monitoring.</p>
+                <a href="https://github.com/nmemranhussain/cardio-triage-4-agents" target="_blank" class="inline-flex items-center text-blue-600 hover:underline font-semibold">
+                    View on GitHub <i class="fas fa-external-link-alt ml-2 text-sm"></i>
+                </a>
+            </div>     
+            
+            <div class="card p-6 border border-gray-200">
+                <h3 class="text-xl font-bold mb-1 text-gray-900">Diabetic Readmission Risk & Clinical BI Copilot</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Groq API</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">DuckDB</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">XGBoost</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">SHAP</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Plotly</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Google Colab</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Python</span>
+                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Hyperparameter-Tuning</span>
+                </div>
+                <p class="text-gray-600 mb-4"> Architected a 3-agent clinical triage application leveraging the Groq API for rapid LLM orchestration to evaluate 30-day diabetic readmission risk across 101,700+ patient records. Automated DuckDB SQL extraction and XGBoost feature predictions, pipelining executive BI summaries and SHAP risk drivers into interactive Plotly cohort visualizations directly within Google Colab.</p>
+                <a href="https://github.com/nmemranhussain/DiaVigil" target="_blank" class="inline-flex items-center text-blue-600 hover:underline font-semibold">
+                    View on GitHub <i class="fas fa-external-link-alt ml-2 text-sm"></i>
+                </a>
+            </div>        
             
             <div class="card p-6 border border-gray-200">
                 <h3 class="text-xl font-bold mb-1 text-gray-900">LeNet-5 CNN Digit Classification</h3>
@@ -261,20 +298,7 @@
                     View on GitHub <i class="fas fa-external-link-alt ml-2 text-sm"></i>
                 </a>
             </div>
-
-            <div class="card p-6 border border-gray-200">
-                <h3 class="text-xl font-bold mb-1 text-gray-900">Titanic ML Models - Model Card</h3>
-                <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Random Forest</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Logistic Regression</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Python</span>
-                </div>
-                <p class="text-gray-600 mb-4">Analyze Titanic passenger data with Logistic Regression & Random Forest. Identify key factors influencing survival and document via standard Model Cards.</p>
-                <a href="https://github.com/nmemranhussain/titanic-logistic-rf-models" target="_blank" class="inline-flex items-center text-blue-600 hover:underline font-semibold">
-                    View on GitHub <i class="fas fa-external-link-alt ml-2 text-sm"></i>
-                </a>
-            </div>
-
+      
             <div class="card p-6 border border-gray-200">
                 <h3 class="text-xl font-bold mb-1 text-gray-900">Integrated E-Commerce Analytics: Predictive Churn & Contextual RAG Recommender</h3>
                 <div class="flex flex-wrap gap-2 mb-4">
@@ -340,11 +364,8 @@
                 </div>
                 <p class="text-gray-700 font-semibold mb-1">Ampere Ltd. - Dhaka, Bangladesh</p>
                 <ul class="list-disc list-inside space-y-1 text-gray-600">
-                    <li>Leveraged Python (Pandas, NumPy) and R to analyze sales trends across Dhaka’s major commercial hubs; built seasonal forecasting models that optimized inventory mix and cut overstocking risks by 5%</li>
-                    <li>Engineered predictive logistics timelines in Python (SciPy) using Monte Carlo simulations to map freight transit from China through Chattogram Port, mitigating Q4 peak-season bottlenecks to maintain a 90% fulfillment rate.</li>
-                    <li>Built an automated financial pipeline in Python to calculate unit landed costs—integrating currency fluctuations (RMB to BDT) and Bangladesh’s Total Tax Incidence (CD, RD, VAT)—securing gross profit margins above 10%.</li>
-                    <li>Designed an automated AQL sampling dashboard in R to evaluate pre-shipment factory test data from Chinese suppliers, ensuring strict compliance with local regulatory standards and accelerating customs clearance to a 5-day median.</li>
-                    <li>Reduced costs by 5-7% via process optimization, supplier negotiations, and streamlined logistics.</li>
+                    <li>Engineered Python and R regression models to forecast commercial demand, generating a 9% revenue lift and reducing overstock by 5%.</li>
+                    <li>Automated cost-tracking data pipelines to monitor pricing variances, successfully protecting 10% operating margins.</li>
                 </ul>
             </div>
 
@@ -356,11 +377,9 @@
                 </div>
                 <p class="text-gray-700 font-semibold mb-1">Anrhus & Shuzos Co. - Dhaka, Bangladesh</p>
                 <ul class="list-disc list-inside space-y-1 text-gray-600">
-                    <li>Marketing & Channel Performance Analytics: Built automated end-to-end ETL and reporting pipelines using Python (Pandas, Streamlit, Plotly) to track and evaluate multi-channel marketing campaigns across LinkedIn, YouTube, and email, optimizing asset allocation and boosting audience engagement across key corporate events.</li>
-                    <li>Real Estate Project Tracking & Risk Analytics: Engineered dynamic project-monitoring dashboards and risk-tracking models using SQL and Python (Plotly, NumPy) to analyze budget variance, milestones, and resource utilization, ensuring seamless on-time execution for a $500K highway development project.</li>
-                    <li>Market Research & Predictive Modeling: Conducted statistical hypothesis testing, regression analysis, and consumer segmentation using R (dplyr, ggplot2, tidymodels) and Python (Scikit-Learn); automated competitive benchmarking pipelines to deliver data-backed campaign optimization strategies.</li>
-                    <li>Supply Chain & Inventory Optimization: Modeled supply chain operations and lead-time distributions using Python and R to implement a Just-In-Time (JIT) framework, improving warehouse efficiency by 10%, mitigating 16 dispute risks to capture 9% cost savings, and maintaining 100% trade compliance across recurring international shipments.</li>
-                </ul>
+                    <li>Spearheaded localized data tracking workflows to optimize infrastructure logistics and accelerate asset time-to-revenue.</li>
+                    <li>Streamlined inventory analytics and audit reporting, cutting overhead expenses by 3% and boosting operational efficiency by 4%.</li>
+                  </ul>
             </div>
         </div>
     </div>
@@ -371,7 +390,7 @@
         <div class="max-w-2xl mx-auto mb-12">
             <h2 class="text-3xl lg:text-4xl font-bold section-heading text-gradient inline-block">Let's Get In Touch</h2>
             <p class="text-lg text-gray-600 mt-4">
-                I am currently open to discussing new opportunities in Marketing/Revenue Data Science, MLOp Engineering, Applied AI Engineering, Data Analytics and Business Analytics. 
+                I am currently open to discussing new opportunities in Business Data Science, MLOp Engineering, Applied AI Engineering, Data Analytics and Business Analytics job roles. 
                 Whether you have a question or just want to connect, my inbox is always open.
             </p>
         </div>
