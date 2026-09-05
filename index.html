@@ -197,24 +197,28 @@
         <h2 class="text-3xl lg:text-4xl font-bold section-heading text-gradient">Featured Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
+<div class="card p-6 border border-gray-200">
+    <h3 class="text-xl font-bold mb-1 text-gray-900">Cardiovascular Risk Assessment & Triage Assistant</h3>
+    
+    <div class="flex flex-wrap gap-2 mb-4">
+        <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Vertex AI</span>
+        <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">BigQuery ML</span>
+        <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Vector Search (RAG)</span>
+        <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">SHAP</span>
+        <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Streamlit</span>
+        <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Docker</span>
+        <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Cloud Run</span>
+    </div>
+    
+    <ul class="list-disc list-inside text-gray-600 mb-4 space-y-2">
+        <li><strong>Pipeline Architecture:</strong> Architected a 4-agent clinical pipeline utilizing Vertex AI Gemini to parse unstructured vitals and a BigQuery ML boosted tree to predict heart failure mortality with SHAP explainability.</li>
+        <li><strong>RAG & Deployment:</strong> Engineered a RAG system via Vertex AI Vector Search for medical guideline retrieval, deploying the solution to Cloud Run as a serverless Streamlit dashboard with active MLOps drift monitoring.</li>
+    </ul>
 
-            <div class="card p-6 border border-gray-200">
-                <h3 class="text-xl font-bold mb-1 text-gray-900">Cardiovascular Risk Assessment & Triage Assistant</h3>
-                <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Vertex AI</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Gemini API</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">BigQueryML</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Vetor Search (RAG)</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Plotly</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">SHAP</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Streamlit</span>
-                    <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded border border-blue-100">Docker</span>
-                </div>
-                <p class="text-gray-600 mb-4"> Architected a 4-agent clinical pipeline utilizing Vertex AI Gemini to parse unstructured vitals and a BigQuery ML boosted tree to predict heart failure mortality with SHAP explainability. Engineered a RAG system via Vertex AI Vector Search for medical guideline retrieval, deploying the solution to Cloud Run as a serverless Streamlit dashboard with active MLOps drift monitoring.</p>
-                <a href="https://github.com/nmemranhussain/cardio-triage-4-agents" target="_blank" class="inline-flex items-center text-blue-600 hover:underline font-semibold">
-                    View on GitHub <i class="fas fa-external-link-alt ml-2 text-sm"></i>
-                </a>
-            </div>     
+    <a href="https://github.com/nmemranhussain/cardio-triage-4-agents" target="_blank" class="inline-flex items-center text-blue-600 hover:underline font-semibold">
+        View on GitHub <i class="fas fa-external-link-alt ml-2 text-sm"></i>
+    </a>
+</div>
             
 <div class="card p-6 border border-gray-200">
     <h3 class="text-xl font-bold mb-1 text-gray-900">Diabetic Readmission Risk & Clinical BI Copilot</h3>
